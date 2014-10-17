@@ -29,6 +29,7 @@
     [:pre (merge (color :inverse)
                  (box :padded)
                  {:color "#ddd"
+                  :padding (em 1)
                   :overflow "hidden"})]]])
 
 (def main-style
